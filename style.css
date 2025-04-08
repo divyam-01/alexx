@@ -1,0 +1,54 @@
+.random{
+    color:yellow;
+    background-color: black;
+    font-style: italic;
+    
+}
+
+.image{
+    border: 3px solid black;
+    border-style: dashed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    float: left;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+p .random{
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.628);
+}
+
+body{
+    background: linear-gradient(to right, rgb(252, 252, 8), rgb(248, 192, 7));
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: vh;
+}
+
+.content > p{
+    
+    text-align: center;
+}
+
+.content > h1{
+    text-align: center;
+    font-size: 70px;
+}
